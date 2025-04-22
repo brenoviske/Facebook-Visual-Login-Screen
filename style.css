@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(233, 231, 231);
+}
+
+#maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+   
+}
+
+#flexcontainer1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#flexcontainer2{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: auto;
+    height: auto;
+    border: white;
+    background-color: white;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 60px 40px 60px 40px;
+}
+
+#headertag{
+    color: #1877F2;
+    font-family: system-ui;
+    font-size: 50px;
+}
+
+.maintext{
+    color: black;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: bold;
+}
+#username{
+    font-size: 30px;
+}
+#password{
+    font-size: 30px;
+}
+
+
+#Login{
+    color: white;
+    background-color: #1877F2;
+    font-size: 15px;
+    font-family: system-ui;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+#Creation{
+    background-color: rgb(2, 173, 2);
+    color: white;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+#forgotpassword{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1877F2;
+}
+
+#Login:hover{
+    transform: scale(1,1.03);
+}
+
+#Creation:hover{
+    transform: scale(1,1.03);
+}
